@@ -54,8 +54,7 @@ public class CentralActivity extends Activity {
 
 
         // Get the bluetooth manager and adapter
-        bluetoothManager =
-                (BluetoothManager) getSystemService(Context.BLUETOOTH_SERVICE);
+        bluetoothManager = (BluetoothManager) getSystemService(Context.BLUETOOTH_SERVICE);
         mBluetoothAdapter = bluetoothManager.getAdapter();
 
         // Ensure they have Bluetooth turned on
